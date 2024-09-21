@@ -1,0 +1,163 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ecf0f1;
+	max-width: 100%;
+	margin: auto;
+}
+
+main {
+	margin: 0 auto;
+	padding: 2em 0;
+	max-width: 1024px;
+	height: 100vh;
+	text-align: center;
+	align-items: center;
+}
+
+input {
+	margin: 0 auto;
+}
+
+input[type="search"] {
+	display: block;
+	width: 40%;
+	margin: 0 auto 2em;
+	padding: 0.3125em;
+	border: 2px solid #999;
+	border-radius: 5px;
+	outline: none;
+}
+
+h1 {
+	font-family: "Anton", sans-serif;
+	text-align: center;
+	align-items: center;
+	position: relative;
+}
+
+input::placeholder {
+	color: #999;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+#container {
+	max-width: 1050px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 15px;
+	padding: 10px;
+}
+
+.gallery-container {
+	background-color: #fff;
+	margin-right: 5px;
+	padding: auto;
+}
+
+.gallery {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 6px;
+	padding-top: 10px;
+}
+
+.gallery__item {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.title {
+	color: red;
+	
+}
+
+#search {
+	font-size: 17px;
+	border: 2px solid rgb(168, 168, 168);
+	border-radius: 6px;
+	min-width: 30%;
+	margin: auto;
+	margin-bottom: 2%;
+	padding: 12px 20% 12px 12px;
+	color: rgb(91, 91, 91);
+}
+
+input:focus {
+	outline: 2px solid orange;
+}
+
+img {
+	flex-basis: 29.7%;
+	grid-gap: 5px;
+	opacity: 0.9;
+	cursor: pointer;
+	padding-bottom: 1.9rem;
+}
+
+a:hover {
+	opacity: 1;
+}
+
+.gallery img {
+	max-width: 100%;
+	height: auto;
+}
+
+.lb-nav a.lb-prev {
+	color: tomato;
+}
+
+figcaption {
+	color: orangered;
+	background-color: aliceblue;
+}
+
+@media (max-width: 767px) {
+	.gallery {
+		width: 90%;
+	}
+
+	.gallery img {
+		height: 500px;
+		width: 500px;
+	}
+
+	.lb-data .lb-close {
+		position: fixed;
+		left: 10px;
+		top: 20px;
+	}
+
+	.lb-nav a.lb-next {
+		position: fixed;
+		right: 35px;
+		top: 0;
+	}
+
+	.lb-nav a.lb-prev {
+		position: fixed;
+		left: 35px;
+		top: 0;
+	}
+}
+@media (max-width: 480px) {
+	img {
+		flex-basis: 100%;
+		margin-bottom: 21px;
+	}
+
+	.lightbox-content {
+		width: 90%;
+		margin: 20% auto;
+	}
+}
