@@ -1,0 +1,39 @@
+
+ * {
+    top: 0;
+    margin: 0;
+    padding: 0;
+ }
+.div {
+    position: fixed;
+    padding: 20px;
+    margin-left: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(240, 234, 234);
+    z-index: 1000;
+
+    }
+
+    .div button {
+        padding: 5px 20px;
+        margin-left: 28%;
+        margin-top: 35%;
+        background-color: rgba(43, 58, 226, 0.322);
+        border-radius: 20%;
+    }
+
+
+    .rover
+
+    { 
+
+        position: fixed; 
+        top:0;
+         height: 100%;
+        width: 100%; 
+         z-index:900; 
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+
