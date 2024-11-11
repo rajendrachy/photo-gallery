@@ -1,0 +1,54 @@
+.grid-container {
+    height: 90vh;
+    width: auto;
+    /* border: 1px solid black; */
+    /* background-color: aliceblue; */
+    display: grid;
+    grid-template-columns: 900px 900px;
+    gap: 30px;
+    /* overflow: hidden; */
+}
+h1 {
+    font-size: 49px;
+    margin-left: 20px;
+}
+p {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+ 
+.container1 {
+
+    height: 60vh;
+    margin-top: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.126);
+    background-color: rgb(255, 240, 240);
+    margin-left: 100px;
+    border-radius: 1%;
+    overflow: scroll;
+    border-top: 6px solid rgba(144, 0, 255, 0.352);
+    border-left: 4px solid rgba(0, 128, 66, 0.402);
+
+
+}
+
+.container2 {
+    height: 60vh;
+    /* border: 1px solid blue; */
+    margin-top: 50px;
+    outline: none;
+    margin-left: 100px;
+} 
+
+
+.fill-form input{
+    width: auto;
+
+    counter-reset: pointer;
+    outline: none;
+    font-size: 50px;
+    border: 1px solid white;
+    padding-top: 50px;
+    border: none;
+}

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(0, 0, 255, 0.457);
+    border: 1px solid black;
+    margin: 0 auto;
+    z-index: 1000;
+
+}
+
+h2 {
+    margin-top: 80px;
+}
+
+input {
+    padding: 10px;
+}
+
+/* .main-container {
+    height: auto;
+    width: auto;
+    border: 1px solid red;
+    display: flex;
+} */
+.container h2,
+p,
+input {
+
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    display: block;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+
+
+.container {
+    z-index: 1000;
+    position: fixed;
+
+}
+
+.rover {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+}
+
+

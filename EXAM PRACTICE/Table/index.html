@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+        }
+        input[type="text"], input[type="date"], input[type="number"] {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        th, td {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hotel Registration Form</h1>
+    <form id="registrationForm">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" required><br>
+
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" required><br>
+
+        <label for="contactNumber">Contact Number:</label>
+        <input type="text" id="contactNumber" required><br>
+
+        <label for="arrivDate">Arrival Date:</label>
+        <input type="date" id="arrivDate" required><br>
+
+        <label for="departDate">Departure Date:</label>
+        <input type="date" id="departDate" required><br>
+
+        <label for="numAdult">Number of Adults:</label>
+        <input type="number" id="numAdult" required><br>
+
+        <label for="numChildren">Number of Children:</label>
+        <input type="number" id="numChildren" required><br>
+
+        <button id="btnSubmit">Submit</button>
+    </form>
+
+    <table id="customerTable">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Email Address</th>
+                <th>Contact Number</th>
+                <th>Arrival Date</th>
+                <th>Departure Date</th>
+                <th>Number of Adults</th>
+                <th>Number of Children</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dynamic rows will be added here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

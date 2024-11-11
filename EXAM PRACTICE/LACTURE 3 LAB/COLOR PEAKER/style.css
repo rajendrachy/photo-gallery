@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="color"] {
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.color-display {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}

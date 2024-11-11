@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="formBox">
+      <h2>SIMPLE FORM</h2>
+
+      <form id="form1">
+        <!-- name section -->
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your Name" class="name" /><br />
+
+        <!-- email section -->
+        <label for="name">Email:</label>
+        <input
+          type="email"
+          placeholder="Enter your Email"
+          class="email"
+        /><br />
+
+        <label for="num">Contact Number:</label>
+        <input
+          type="text"
+          placeholder="Enter your Phone Number"
+          class="contact"
+          required
+        /><br />
+
+        <!-- Gender section -->
+        <span
+          ><label for="gender">Gender:</label><br />
+          <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+            class="male"
+            placeholder="j" />Male
+          <!--name must be same for both male an female-->
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            class="female"
+            placeholder="j" />Female<br
+        /></span>
+
+        <!-- dropdown section -->
+        <label for="role">Role:</label>
+        <select id="role">
+          <option value="student">......</option>
+          <option value="teacher">Teacher</option>
+          <option value="admin">Admin</option></select
+        ><br /><br />
+
+        <!-- comment section -->
+        <label for="comment">Comment:</label>
+        <textarea
+          name="text"
+          id="texta"
+          placeholder="Enter your comment"
+          class="comment"
+        >
+        </textarea>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+    <!--formBox end-->
+
+    <div class="tableBox">
+      <table border="4" class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Comment</th>
+            <th>Role</th>
+            <th>Gender</th>
+          </tr>
+        </thead>
+
+        <tbody> 
+            <!-- using a javaScript -->
+        </tbody>
+      </table>
+      <script src="script.js"></script>
+    </div>
+ </body>
+</html>

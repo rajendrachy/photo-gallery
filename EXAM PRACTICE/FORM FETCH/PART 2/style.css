@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex_container {
+    height: 500px;
+    width: 100%;
+    /* background-color: rgba(0, 0, 255, 0.238); */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+input {
+    padding: 10px;
+    display: block;
+    margin: 10px 0px 0px 20px;
+    width: 300px;
+    border-radius: 10px;
+    border-top: none;
+}
+
+form {
+    background-color: rgba(255, 0, 0, 0.705);
+    width: 400px;
+}
+
+table {
+    background-color: rgba(0, 128, 0, 0.187);
+    width: 400px;
+}
+
+.submit {
+    margin: 200px 0px 0px 140px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+}
+
+table {
+    
+    border-collapse: collapse;
+
+}
+
